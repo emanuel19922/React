@@ -5,24 +5,29 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
-
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCWSMXz9IhbgY87o9s4YT4aSThZWyqMlgM",
-  authDomain: "miapp4-eef65.firebaseapp.com",
-  projectId: "miapp4-eef65",
-  storageBucket: "miapp4-eef65.appspot.com",
-  messagingSenderId: "604480295545",
-  appId: "1:604480295545:web:b14d4624898d4108ebfaa8"
+  apiKey: "AIzaSyCRNtujmuAeZ7a55SI5aXpB76IQ1DD5LIE",
+  authDomain: "miapp5.firebaseapp.com",
+  projectId: "miapp5",
+  storageBucket: "miapp5.appspot.com",
+  messagingSenderId: "670596680227",
+  appId: "1:670596680227:web:3d2008474c8503655aff96",
+  measurementId: "G-FKXFFMGKPM"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
