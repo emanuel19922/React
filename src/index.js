@@ -14,19 +14,18 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDd7J2Dxu44r6xMc8m08uX3xfFrsx5qJGc",
-  authDomain: "miapp-2.firebaseapp.com",
-  projectId: "miapp-2",
-  storageBucket: "miapp-2.firebasestorage.app",
-  messagingSenderId: "386683713513",
-  appId: "1:386683713513:web:75d8e9650b84691bc53d78",
-  measurementId: "G-QEY2EEQ3CL"
+  apiKey: "AIzaSyBZ5pNUAuYmtYj8VxCEX-BqFM2ZF03-sRM",
+  authDomain: "miapp-3.firebaseapp.com",
+  projectId: "miapp-3",
+  storageBucket: "miapp-3.firebasestorage.app",
+  messagingSenderId: "607831338910",
+  appId: "1:607831338910:web:52f9c912897d744866708f",
+  measurementId: "G-FG8SRZ6S5J"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 

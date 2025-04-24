@@ -20,7 +20,7 @@ const ItemsListFilter = (props) => {
 
         const db = getFirestore()
 
-        const querySnapshot = collection(db, 'miapp-2')
+        const querySnapshot = collection(db, 'miapp-3')
         console.log(querySnapshot)
 
 
